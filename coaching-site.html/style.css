@@ -2,9 +2,12 @@ nav{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: var(--nav-hover-background-color);
+    text-align: center;
+    align-items: center;
 }
 nav a {
     color: white;
+    font-size: 30px;
 }
 main {
 display: grid;
@@ -27,6 +30,9 @@ main img{
 }
 #breakfast{
     margin-top: 50px;
+}
+.small{
+    width: 100%;
 }
 :root {
     /* change the values below to your colors from your palette */
