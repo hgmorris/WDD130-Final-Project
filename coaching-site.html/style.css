@@ -10,26 +10,44 @@ nav a {
     font-size: 30px;
 }
 main {
+background-color: #396E94;
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(4, 1fr, 1fr);
 max-width: 100vw;
-
+margin-top: 50px;
+color: white;
 }
+h2{
+    font-size: 100px;
+}
+
 #image1{
     grid-column: span 3;
 }
 main img{
     width: 100%;
 }
+#armT{
+    grid-column: span 2;
+    margin-top: 50px;
+}
 #strenthTLogo{
    grid-column: span 2; 
    margin-top: 50px;
 }
 #Expertise{
-    grid-column: span 2;
+    grid-column: span 1;
 }
 #breakfast{
+    grid-column: span 2;
     margin-top: 50px;
+
+}
+#health{
+    margin-top: 75px;
+}
+#image2{
+    margin-top: 75px;
 }
 .small{
     width: 100%;
