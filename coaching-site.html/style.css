@@ -18,9 +18,11 @@ margin-top: 50px;
 color: white;
 }
 h2{
-    font-size: 100px;
+    font-size: 30px;
 }
-
+.center{
+    margin: auto 0;
+}
 #image1{
     grid-column: span 3;
 }
@@ -39,12 +41,15 @@ main img{
     grid-column: span 1;
 }
 #breakfast{
-    grid-column: span 2;
+    
     margin-top: 50px;
+
 
 }
 #health{
     margin-top: 75px;
+    grid-row: 1;
+    grid-column: 4;
 }
 #image2{
     margin-top: 75px;
