@@ -20,6 +20,24 @@ color: white;
 h2{
     font-size: 30px;
 }
+.text{
+font-size: 20px;
+}
+.breakfast{
+    width: 50%;
+
+}
+.head{
+    font-size: 30px;
+    text-align: center;
+}
+.page3body{
+background-color: #38A3A5;
+color: aliceblue;
+}
+.colum1{
+grid-column: 1/2;
+}
 .center{
     margin: auto 0;
 }
