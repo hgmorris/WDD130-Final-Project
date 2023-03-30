@@ -21,7 +21,7 @@ h2{
     font-size: 30px;
 }
 .text{
-font-size: 20px;
+font-size: 30px;
 }
 .breakfast{
     width: 50%;
@@ -34,6 +34,7 @@ font-size: 20px;
 .page3body{
 background-color: #38A3A5;
 color: aliceblue;
+font-size: 30px;
 }
 .colum1{
 grid-column: 1/2;
